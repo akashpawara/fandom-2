@@ -251,8 +251,8 @@ $(".submit").on("click",()=> {
 			}, 10000);
 			setTimeout(() => {  $(".map-base").toggleClass("seventh"); $(".map-base").toggleClass("back"); }, 8000);
 			setTimeout(() => {  modal.style.animation="0.5s animatetop"; modal.style.display = "block";
-			$(".loc-1").toggleClass("active"); $(".loc-1").toggleClass("active");
-			$(".msg-8").toggleClass("active"); $(".msg-8").toggleClass("active"); }, 16000);
+			$(".loc-7").toggleClass("active"); $(".loc-1").toggleClass("active");
+			$(".msg-7").toggleClass("active"); $(".msg-8").toggleClass("active"); }, 16000);
 			break;
 		case "your cupboard":
 			modal.style.animation="0.5s animatebot"; modal.style.display = "none"; document.getElementById("pass").value="";
