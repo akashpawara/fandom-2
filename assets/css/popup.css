@@ -1,0 +1,344 @@
+.chibi{
+    width: 150px;
+    height: 150px;
+}
+.toast-chibi{
+    width: 150px;
+    height: 150px;
+    display: none;
+}
+.toast-chibi.active{
+    display: inline-block;
+}
+.toast-ron{
+    width: 150px;
+    height: 200px;
+    display: none;
+}
+.toast-ron.active{
+    display: inline-block;
+}
+.toast {
+    font-family: 'Jim Nightshade', cursive;
+    visibility: hidden;
+    width: 800px;
+    margin: auto;
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    padding: auto;
+    position: fixed;
+    z-index: 12;
+    opacity: 0.8;
+    left: 25%;
+    top: 25%;
+    font-size: 30px;
+  }
+.toast.active {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+input[type=text]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #e6e5f3;
+    border-radius: 20px;
+    outline: none;
+  }
+
+  .submit {
+    width: 15%;
+    background-color: #5f1847;
+    color: white;
+    padding: 12px 18px;
+    margin: 8px 0px 0px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  .submit:hover {
+    background-color: #310924;
+  }
+  a{
+      color:#5f1847;
+  }
+  a:hover{
+    color:#310924;
+  }
+.modal {
+    font-family: 'Jim Nightshade', cursive;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 11; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  }
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #5e576d;
+    color:aliceblue;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 20px;
+  }
+  /* Add Animation */
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  @keyframes animatebot {
+    from {top:0; opacity:1}
+    to {top:-300px; opacity:0}
+  }
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #8b95a1;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+  }
+  .modal-body {
+    font-size: 25px;
+    padding: 2px 16px;
+    }
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #8b95a1;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .loc-1{
+      display: none;
+  }
+  .loc-2{
+      display: none;
+  }
+  .loc-3{
+      display: none;
+  }
+  .loc-4{
+      display: none;
+  }
+  .loc-5{
+      display: none;
+  }
+  .loc-6{
+      display: none;
+  }
+  .loc-7{
+      display: none;
+  }
+  .loc-1.active{
+      display: block;
+  }
+  .loc-2.active{
+      display: block;
+  }
+  .loc-3.active{
+      display: block;
+  }
+  .loc-4.active{
+      display: block;
+  }
+  .loc-5.active{
+      display: block;
+  }
+  .loc-6.active{
+      display: block;
+  }
+  .loc-7.active{
+      display: block;
+  }
+  .msg-1{
+      display: none;
+  }
+  .msg-2{
+      display: none;
+  }
+  .msg-3{
+      display: none;
+  }
+  .msg-4{
+      display: none;
+  }
+  .msg-5{
+      display: none;
+  }
+  .msg-6{
+      display: none;
+  }
+  .msg-7{
+      display: none;
+  }
+  .msg-8{
+      display: none;
+  }
+  .msg-9{
+      display: none;
+  }
+  .msg-10{
+      display: none;
+  }
+  .msg-11{
+      display: none;
+  }
+  .msg-12{
+      display: none;
+  }
+  .msg-13{
+      display: none;
+  }
+  .msg-14{
+      display: none;
+  }
+  .msg-1.active{
+      display: block;
+  }
+  .msg-2.active{
+      display: block;
+  }
+  .msg-3.active{
+      display: block;
+  }
+  .msg-4.active{
+      display: block;
+  }
+  .msg-5.active{
+      display: block;
+  }
+  .msg-6.active{
+      display: block;
+  }
+  .msg-7.active{
+      display: block;
+  }
+  .msg-8.active{
+      display: block;
+  }
+  .msg-9.active{
+      display: block;
+  }
+  .msg-10.active{
+      display: block;
+  }
+  .msg-11.active{
+      display: block;
+  }
+  .msg-12.active{
+      display: block;
+  }
+  .msg-13.active{
+      display: block;
+  }
+  .msg-14.active{
+      display: block;
+  }
+  .toast-1{
+      display: none;
+  }
+  .toast-2{
+    display: none;
+}
+  .toast-3{
+    display: none;
+}
+  .toast-4{
+    display: none;
+}
+  .toast-5{
+    display: none;
+}
+  .toast-6{
+    display: none;
+}
+  .toast-7{
+    display: none;
+}
+  .toast-8{
+    display: none;
+}
+  .toast-9{
+    display: none;
+}
+  .toast-10{
+    display: none;
+}
+  .toast-11{
+    display: none;
+}
+  .toast-12{
+    display: none;
+}
+  .toast-13{
+    display: none;
+}
+.toast-1.active{
+    display: block;
+}
+.toast-2.active{
+    display: block;
+}
+.toast-3.active{
+    display: block;
+}
+.toast-4.active{
+    display: block;
+}
+.toast-5.active{
+    display: block;
+}
+.toast-6.active{
+    display: block;
+}
+.toast-7.active{
+    display: block;
+}
+.toast-8.active{
+    display: block;
+}
+.toast-9.active{
+    display: block;
+}
+.toast-10.active{
+    display: block;
+}
+.toast-11.active{
+    display: block;
+}
+.toast-12.active{
+    display: block;
+}
+.toast-13.active{
+    display: block;
+}
+.wrong{
+    display: none;
+}
+.wrong.active{
+    display:block;
+}
+.last{
+    display: none;
+}
+.last.active{
+    display:block;
+}

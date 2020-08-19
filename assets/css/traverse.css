@@ -1,0 +1,986 @@
+.map-base .footstep.left {
+    transform: rotate(5deg);
+  }
+  .map-base .footstep.right {
+    transform: rotate(-3deg) translateY(15px) translateX(10px);
+  }
+.map-base.first .scroll-name{
+    transform: translate(8px, -95px);
+  }
+  .map-base.first .footsteps-1 .footstep.left {
+    bottom: 150px;
+    left: 18px;
+    transform: rotate(35deg);
+  }
+  .map-base.first .footsteps-1 .footstep.right {
+    bottom: 150px;
+    left: 28px;
+    transform: rotate(30deg);
+  }
+  .map-base.first .flap--1 {
+    transform: rotateX(180deg);
+    transform-origin: top center;
+    transition: 0.6s transform 1.5s;
+  }
+  .map-base.first .flap--2 {
+    transform: rotateX(180deg);
+    transform-origin: bottom center;
+    transition: 0.6s transform 1.8s;
+  }
+  .map-base.first .side-1 {
+    transform-origin: center left;
+    transform: rotateY(180deg) skewY(2deg);
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.first .side-1 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.first .side-2 {
+    transform: rotateY(180deg) skewY(-2deg);
+    transform-origin: center right;
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.first .side-2 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.first .side-3 {
+    left: -50%;
+    transform: skewY(2deg) translateX(-100%);
+    top: 8px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s;
+  }
+  .map-base.first .side-4 {
+    left: 100%;
+    transform: skewY(-2deg) translateX(100%);
+    top: 8px;
+    margin-left: -7px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s, 0.5s margin ease 0.8s;
+  }
+  .map-base.first .side-5 {
+    left: -100%;
+    transform-origin: center left;
+    transform: rotateY(180deg);
+    transition: 0.5s transform, 0.7s left 0.8s, 0.2s margin 0.8s;
+    top: 0px;
+    margin-left: 4px;
+  }
+  .map-base.first .side-5 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.first .side-6 {
+    left: 150%;
+    transform: rotateY(180deg);
+    transform-origin: center right;
+    margin-left: -8px;
+    transition: 0.5s transform 0.3s, 0.7s left 0.8s, 0.5s top 0.8s, 0.5s margin 0.8s;
+  }
+  .map-base.first .side-6 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.first .footstep, .map-base.first .scroll-name {
+    opacity: 1;
+    transition: .5s opacity 2.5s;
+  }
+  .map-base.first .footsteps-1 .footstep {
+    animation: 5s footsteps-1 ease 3s forwards;
+  }
+  .map-base.first .footsteps-1 .scroll-name {
+    animation: 5s scroll-1 ease 3s forwards;
+  }
+
+
+  .map-base.second .scroll-name{
+    transform: translate(120px, -160px);
+  }
+  .map-base.second .footsteps-1 .footstep.left {
+    bottom: 150px;
+    left: 18px;
+    transform: translate(120px, -90px) rotate(185deg);
+  }
+  .map-base.second .footsteps-1 .footstep.right {
+    bottom: 150px;
+    left: 28px;
+    transform: translate(120px, -90px) rotate(180deg);
+  }
+  .map-base.second .flap--1 {
+    transform: rotateX(180deg);
+    transform-origin: top center;
+    transition: 0.6s transform 1.5s;
+  }
+  .map-base.second .flap--2 {
+    transform: rotateX(180deg);
+    transform-origin: bottom center;
+    transition: 0.6s transform 1.8s;
+  }
+  .map-base.second .side-1 {
+    transform-origin: center left;
+    transform: rotateY(180deg) skewY(2deg);
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.second .side-1 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.second .side-2 {
+    transform: rotateY(180deg) skewY(-2deg);
+    transform-origin: center right;
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.second .side-2 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.second .side-3 {
+    left: -50%;
+    transform: skewY(2deg) translateX(-100%);
+    top: 8px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s;
+  }
+  .map-base.second .side-4 {
+    left: 100%;
+    transform: skewY(-2deg) translateX(100%);
+    top: 8px;
+    margin-left: -7px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s, 0.5s margin ease 0.8s;
+  }
+  .map-base.second .side-5 {
+    left: -100%;
+    transform-origin: center left;
+    transform: rotateY(180deg);
+    transition: 0.5s transform, 0.7s left 0.8s, 0.2s margin 0.8s;
+    top: 0px;
+    margin-left: 4px;
+  }
+  .map-base.second .side-5 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.second .side-6 {
+    left: 150%;
+    transform: rotateY(180deg);
+    transform-origin: center right;
+    margin-left: -8px;
+    transition: 0.5s transform 0.3s, 0.7s left 0.8s, 0.5s top 0.8s, 0.5s margin 0.8s;
+  }
+  .map-base.second .side-6 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.second .footstep, .map-base.second .scroll-name {
+    opacity: 1;
+    transition: .5s opacity 2.5s;
+  }
+  .map-base.second .footsteps-1 .footstep {
+    animation: 5s footsteps-2 ease 3s forwards;
+  }
+  .map-base.second .footsteps-1 .scroll-name {
+    animation: 5s scroll-2 ease 3s forwards;
+  }
+
+
+  .map-base.third .scroll-name{
+    transform: translate(50px, 20px);
+  }
+  .map-base.third .footsteps-1 .footstep.left {
+    bottom: 150px;
+    left: 18px;
+    transform: translate(50px, 100px) rotate(70deg);
+  }
+  .map-base.third .footsteps-1 .footstep.right {
+    bottom: 160px;
+    left: 22px;
+    transform: translate(50px, 100px) rotate(75deg);
+  }
+  .map-base.third .flap--1 {
+    transform: rotateX(180deg);
+    transform-origin: top center;
+    transition: 0.6s transform 1.5s;
+  }
+  .map-base.third .flap--2 {
+    transform: rotateX(180deg);
+    transform-origin: bottom center;
+    transition: 0.6s transform 1.8s;
+  }
+  .map-base.third .side-1 {
+    transform-origin: center left;
+    transform: rotateY(180deg) skewY(2deg);
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.third .side-1 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.third .side-2 {
+    transform: rotateY(180deg) skewY(-2deg);
+    transform-origin: center right;
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.third .side-2 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.third .side-3 {
+    left: -50%;
+    transform: skewY(2deg) translateX(-100%);
+    top: 8px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s;
+  }
+  .map-base.third .side-4 {
+    left: 100%;
+    transform: skewY(-2deg) translateX(100%);
+    top: 8px;
+    margin-left: -7px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s, 0.5s margin ease 0.8s;
+  }
+  .map-base.third .side-5 {
+    left: -100%;
+    transform-origin: center left;
+    transform: rotateY(180deg);
+    transition: 0.5s transform, 0.7s left 0.8s, 0.2s margin 0.8s;
+    top: 0px;
+    margin-left: 4px;
+  }
+  .map-base.third .side-5 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.third .side-6 {
+    left: 150%;
+    transform: rotateY(180deg);
+    transform-origin: center right;
+    margin-left: -8px;
+    transition: 0.5s transform 0.3s, 0.7s left 0.8s, 0.5s top 0.8s, 0.5s margin 0.8s;
+  }
+  .map-base.third .side-6 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.third .footstep, .map-base.third .scroll-name {
+    opacity: 1;
+    transition: .5s opacity 2.5s;
+  }
+  .map-base.third .footsteps-1 .footstep {
+    animation: 5s footsteps-3 ease 3s forwards;
+  }
+  .map-base.third .footsteps-1 .scroll-name {
+    animation: 5s scroll-3 ease 3s forwards;
+  }
+
+  .map-base.fourth .scroll-name{
+    transform: translate(250px, -20px);
+  }
+  .map-base.fourth .footsteps-1 .footstep.left {
+    bottom: 150px;
+    left: 18px;
+    transform: translate(250px, 60px) rotate(310deg);
+  }
+  .map-base.fourth .footsteps-1 .footstep.right {
+    bottom: 150px;
+    left: 30px;
+    transform: translate(250px, 60px) rotate(310deg);
+  }
+  .map-base.fourth .flap--1 {
+    transform: rotateX(180deg);
+    transform-origin: top center;
+    transition: 0.6s transform 1.5s;
+  }
+  .map-base.fourth .flap--2 {
+    transform: rotateX(180deg);
+    transform-origin: bottom center;
+    transition: 0.6s transform 1.8s;
+  }
+  .map-base.fourth .side-1 {
+    transform-origin: center left;
+    transform: rotateY(180deg) skewY(2deg);
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.fourth .side-1 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.fourth .side-2 {
+    transform: rotateY(180deg) skewY(-2deg);
+    transform-origin: center right;
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.fourth .side-2 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.fourth .side-3 {
+    left: -50%;
+    transform: skewY(2deg) translateX(-100%);
+    top: 8px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s;
+  }
+  .map-base.fourth .side-4 {
+    left: 100%;
+    transform: skewY(-2deg) translateX(100%);
+    top: 8px;
+    margin-left: -7px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s, 0.5s margin ease 0.8s;
+  }
+  .map-base.fourth .side-5 {
+    left: -100%;
+    transform-origin: center left;
+    transform: rotateY(180deg);
+    transition: 0.5s transform, 0.7s left 0.8s, 0.2s margin 0.8s;
+    top: 0px;
+    margin-left: 4px;
+  }
+  .map-base.fourth .side-5 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.fourth .side-6 {
+    left: 150%;
+    transform: rotateY(180deg);
+    transform-origin: center right;
+    margin-left: -8px;
+    transition: 0.5s transform 0.3s, 0.7s left 0.8s, 0.5s top 0.8s, 0.5s margin 0.8s;
+  }
+  .map-base.fourth .side-6 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.fourth .footstep, .map-base.fourth .scroll-name {
+    opacity: 1;
+    transition: .5s opacity 2.5s;
+  }
+  .map-base.fourth .footsteps-1 .footstep {
+    animation: 5s footsteps-4 ease 3s forwards;
+  }
+  .map-base.fourth .footsteps-1 .scroll-name {
+    animation: 5s scroll-4 ease 3s forwards;
+  }
+
+
+  .map-base.fifth .scroll-name{
+    transform: translate(20px, -410px);
+  }
+  .map-base.fifth .footsteps-1 .footstep.left {
+    bottom: 150px;
+    left: 18px;
+    transform: translate(20px, -330px) rotate(90deg);
+  }
+  .map-base.fifth .footsteps-1 .footstep.right {
+    bottom: 158px;
+    left: 28px;
+    transform: translate(20px, -330px) rotate(90deg);
+  }
+  .map-base.fifth .flap--1 {
+    transform: rotateX(180deg);
+    transform-origin: top center;
+    transition: 0.6s transform 1.5s;
+  }
+  .map-base.fifth .flap--2 {
+    transform: rotateX(180deg);
+    transform-origin: bottom center;
+    transition: 0.6s transform 1.8s;
+  }
+  .map-base.fifth .side-1 {
+    transform-origin: center left;
+    transform: rotateY(180deg) skewY(2deg);
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.fifth .side-1 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.fifth .side-2 {
+    transform: rotateY(180deg) skewY(-2deg);
+    transform-origin: center right;
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.fifth .side-2 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.fifth .side-3 {
+    left: -50%;
+    transform: skewY(2deg) translateX(-100%);
+    top: 8px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s;
+  }
+  .map-base.fifth .side-4 {
+    left: 100%;
+    transform: skewY(-2deg) translateX(100%);
+    top: 8px;
+    margin-left: -7px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s, 0.5s margin ease 0.8s;
+  }
+  .map-base.fifth .side-5 {
+    left: -100%;
+    transform-origin: center left;
+    transform: rotateY(180deg);
+    transition: 0.5s transform, 0.7s left 0.8s, 0.2s margin 0.8s;
+    top: 0px;
+    margin-left: 4px;
+  }
+  .map-base.fifth .side-5 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.fifth .side-6 {
+    left: 150%;
+    transform: rotateY(180deg);
+    transform-origin: center right;
+    margin-left: -8px;
+    transition: 0.5s transform 0.3s, 0.7s left 0.8s, 0.5s top 0.8s, 0.5s margin 0.8s;
+  }
+  .map-base.fifth .side-6 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.fifth .footstep, .map-base.fifth .scroll-name {
+    opacity: 1;
+    transition: .5s opacity 2.5s;
+  }
+  .map-base.fifth .footsteps-1 .footstep {
+    animation: 5s footsteps-5 ease 3s forwards;
+  }
+  .map-base.fifth .footsteps-1 .scroll-name {
+    animation: 5s scroll-5 ease 3s forwards;
+  }
+
+
+  .map-base.sixth .scroll-name{
+    transform: translate(230px, -400px);
+  } 
+  .map-base.sixth .footsteps-1 .footstep.left {
+    bottom: 150px;
+    left: 18px;
+    transform: translate(230px, -320px) rotate(230deg);
+  }
+  .map-base.sixth .footsteps-1 .footstep.right {
+    bottom: 162px;
+    left: 22px;
+    transform: translate(230px, -320px) rotate(230deg);
+  }
+  .map-base.sixth .flap--1 {
+    transform: rotateX(180deg);
+    transform-origin: top center;
+    transition: 0.6s transform 1.5s;
+  }
+  .map-base.sixth .flap--2 {
+    transform: rotateX(180deg);
+    transform-origin: bottom center;
+    transition: 0.6s transform 1.8s;
+  }
+  .map-base.sixth .side-1 {
+    transform-origin: center left;
+    transform: rotateY(180deg) skewY(2deg);
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.sixth .side-1 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.sixth .side-2 {
+    transform: rotateY(180deg) skewY(-2deg);
+    transform-origin: center right;
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.sixth .side-2 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.sixth .side-3 {
+    left: -50%;
+    transform: skewY(2deg) translateX(-100%);
+    top: 8px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s;
+  }
+  .map-base.sixth .side-4 {
+    left: 100%;
+    transform: skewY(-2deg) translateX(100%);
+    top: 8px;
+    margin-left: -7px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s, 0.5s margin ease 0.8s;
+  }
+  .map-base.sixth .side-5 {
+    left: -100%;
+    transform-origin: center left;
+    transform: rotateY(180deg);
+    transition: 0.5s transform, 0.7s left 0.8s, 0.2s margin 0.8s;
+    top: 0px;
+    margin-left: 4px;
+  }
+  .map-base.sixth .side-5 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.sixth .side-6 {
+    left: 150%;
+    transform: rotateY(180deg);
+    transform-origin: center right;
+    margin-left: -8px;
+    transition: 0.5s transform 0.3s, 0.7s left 0.8s, 0.5s top 0.8s, 0.5s margin 0.8s;
+  }
+  .map-base.sixth .side-6 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.sixth .footstep, .map-base.sixth .scroll-name {
+    opacity: 1;
+    transition: .5s opacity 2.5s;
+  }
+  .map-base.sixth .footsteps-1 .footstep {
+    animation: 5s footsteps-6 ease 3s forwards;
+  }
+  .map-base.sixth .footsteps-1 .scroll-name {
+    animation: 5s scroll-6 ease 3s forwards;
+  }
+
+  .map-base.seventh .scroll-name{
+    transform: translate(-100px, -200px);
+  }
+  .map-base.seventh .footsteps-1 .footstep.left {
+    bottom: 150px;
+    left: 18px;
+    transform: translate(-100px, -120px) rotate(70deg);
+  }
+  .map-base.seventh .footsteps-1 .footstep.right {
+    bottom: 162px;
+    left: 30px;
+    transform: translate(-100px, -120px) rotate(70deg);
+  }
+  .map-base.seventh .flap--1 {
+    transform: rotateX(180deg);
+    transform-origin: top center;
+    transition: 0.6s transform 1.5s;
+  }
+  .map-base.seventh .flap--2 {
+    transform: rotateX(180deg);
+    transform-origin: bottom center;
+    transition: 0.6s transform 1.8s;
+  }
+  .map-base.seventh .side-1 {
+    transform-origin: center left;
+    transform: rotateY(180deg) skewY(2deg);
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.seventh .side-1 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.seventh .side-2 {
+    transform: rotateY(180deg) skewY(-2deg);
+    transform-origin: center right;
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.seventh .side-2 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.seventh .side-3 {
+    left: -50%;
+    transform: skewY(2deg) translateX(-100%);
+    top: 8px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s;
+  }
+  .map-base.seventh .side-4 {
+    left: 100%;
+    transform: skewY(-2deg) translateX(100%);
+    top: 8px;
+    margin-left: -7px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s, 0.5s margin ease 0.8s;
+  }
+  .map-base.seventh .side-5 {
+    left: -100%;
+    transform-origin: center left;
+    transform: rotateY(180deg);
+    transition: 0.5s transform, 0.7s left 0.8s, 0.2s margin 0.8s;
+    top: 0px;
+    margin-left: 4px;
+  }
+  .map-base.seventh .side-5 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.seventh .side-6 {
+    left: 150%;
+    transform: rotateY(180deg);
+    transform-origin: center right;
+    margin-left: -8px;
+    transition: 0.5s transform 0.3s, 0.7s left 0.8s, 0.5s top 0.8s, 0.5s margin 0.8s;
+  }
+  .map-base.seventh .side-6 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.seventh .footstep, .map-base.seventh .scroll-name {
+    opacity: 1;
+    transition: .5s opacity 2.5s;
+  }
+  .map-base.seventh .footsteps-1 .footstep {
+    animation: 5s footsteps-7 ease 3s forwards;
+  }
+  .map-base.seventh .footsteps-1 .scroll-name {
+    animation: 5s scroll-7 ease 3s forwards;
+  }
+
+
+  .map-base.back .scroll-name{
+    transform: translate(380px, -260px);
+  }
+  .map-base.back .footsteps-1 .footstep.left {
+    bottom: 150px;
+    left: 18px;
+    transform: translate(380px, -180px) rotate(230deg);
+  }
+  .map-base.back .footsteps-1 .footstep.right {
+    bottom: 146px;
+    left: 28px;
+    transform: translate(380px, -180px) rotate(230deg);
+  }
+  .map-base.back .flap--1 {
+    transform: rotateX(180deg);
+    transform-origin: top center;
+    transition: 0.6s transform 1.5s;
+  }
+  .map-base.back .flap--2 {
+    transform: rotateX(180deg);
+    transform-origin: bottom center;
+    transition: 0.6s transform 1.8s;
+  }
+  .map-base.back .side-1 {
+    transform-origin: center left;
+    transform: rotateY(180deg) skewY(2deg);
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.back .side-1 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.back .side-2 {
+    transform: rotateY(180deg) skewY(-2deg);
+    transform-origin: center right;
+    transition: 0.5s all ease-in-out 0.6s;
+  }
+  .map-base.back .side-2 .front {
+    transform: rotateY(180deg);
+  }
+  .map-base.back .side-3 {
+    left: -50%;
+    transform: skewY(2deg) translateX(-100%);
+    top: 8px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s;
+  }
+  .map-base.back .side-4 {
+    left: 100%;
+    transform: skewY(-2deg) translateX(100%);
+    top: 8px;
+    margin-left: -7px;
+    transition: 0.5s transform ease 0.8s, 0.3s left ease 0.8s, 0.5s top ease 0.8s, 0.5s margin ease 0.8s;
+  }
+  .map-base.back .side-5 {
+    left: -100%;
+    transform-origin: center left;
+    transform: rotateY(180deg);
+    transition: 0.5s transform, 0.7s left 0.8s, 0.2s margin 0.8s;
+    top: 0px;
+    margin-left: 4px;
+  }
+  .map-base.back .side-5 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.back .side-6 {
+    left: 150%;
+    transform: rotateY(180deg);
+    transform-origin: center right;
+    margin-left: -8px;
+    transition: 0.5s transform 0.3s, 0.7s left 0.8s, 0.5s top 0.8s, 0.5s margin 0.8s;
+  }
+  .map-base.back .side-6 .front {
+    transform: rotateY(180deg);
+    transition: 0.1s transform;
+  }
+  .map-base.back .footstep, .map-base.back .scroll-name {
+    opacity: 1;
+    transition: .5s opacity 2.5s;
+  }
+  .map-base.back .footsteps-1 .footstep {
+    animation: 5s footsteps-8 ease 3s forwards;
+  }
+  .map-base.back .footsteps-1 .scroll-name {
+    animation: 5s scroll-8 ease 3s forwards;
+  }
+
+
+  @keyframes footsteps-1 {
+    10% {
+      transform: translate(8px, -15px) rotate(30deg);
+    }
+    25% {
+      transform: translate(30px, -30px) rotate(30deg);
+    }
+    50% {
+      transform: translate(60px, -50px) rotate(20deg);
+    }
+    75% {
+      transform: translate(90px, -70px) rotate(10deg);
+    }
+    100% {
+      transform: translate(120px, -90px) rotate(20deg);
+    }
+  }
+  @keyframes scroll-1 {
+    10% {
+      transform: translate(8px, -95px);
+    }
+    25% {
+      transform: translate(30px, -110px);
+    }
+    50% {
+      transform: translate(60px, -130px);
+    }
+    75% {
+      transform: translate(90px, -150px);
+    }
+    100% {
+      transform: translate(120px, -170px);
+    }
+  }
+  @keyframes footsteps-2 {
+    10% {
+      transform: translate(120px, -90px) rotate(180deg);
+    }
+    25% {
+      transform: translate(110px, -60px) rotate(180deg);
+    }
+    35% {
+      transform: translate(100px, -30px) rotate(185deg);
+    }
+    45% {
+      transform: translate(90px, 0px) rotate(185deg);
+    }
+    60% {
+      transform: translate(80px, 30px) rotate(190deg);
+    }
+    80% {
+      transform: translate(70px, 60px) rotate(190deg);
+    }
+    100% {
+      transform: translate(50px, 100px) rotate(195deg);
+    }
+  }
+  @keyframes scroll-2 {
+    10% {
+      transform: translate(120px, -170px);
+    }
+    25% {
+      transform: translate(110px, -140px);
+    }
+    35% {
+      transform: translate(100px, -110px);
+    }
+    45% {
+      transform: translate(90px, -80px);
+    }
+    60% {
+      transform: translate(80px, -50px);
+    }
+    80% {
+      transform: translate(70px, -20px);
+    }
+    100% {
+      transform: translate(50px, 20px);
+    }
+  }
+  @keyframes footsteps-3 {
+    10% {
+      transform: translate(50px, 100px) rotate(70deg);
+    }
+    25% {
+      transform: translate(100px, 90px) rotate(70deg);
+    }
+    50% {
+      transform: translate(150px, 80px) rotate(70deg);
+    }
+    75% {
+      transform: translate(200px, 70px) rotate(70deg);
+    }
+    100% {
+      transform: translate(250px, 60px) rotate(70deg);
+    }
+  }
+  @keyframes scroll-3 {
+    10% {
+      transform: translate(50px, 20px);
+    }
+    25% {
+      transform: translate(100px, 10px);
+    }
+    50% {
+      transform: translate(150px, 0px);
+    }
+    75% {
+      transform: translate(200px, -10px);
+    }
+    100% {
+      transform: translate(250px, -20px);
+    }
+  }
+  
+  @keyframes footsteps-4 {
+    10% {
+        transform: translate(250px, 60px) rotate(310deg);
+    }
+    25% {
+      transform: translate(190px, -40px) rotate(310deg);
+    }
+    50% {
+      transform: translate(130px, -130px) rotate(310deg);
+    }
+    75% {
+      transform: translate(70px, -220px) rotate(310deg);
+    }
+    100% {
+      transform: translate(20px, -330px) rotate(310deg);
+    }
+  }
+  @keyframes scroll-4 {
+    10% {
+      transform: translate(250px, -20px);
+    }
+    25% {
+      transform: translate(190px, -120px);
+    }
+    50% {
+      transform: translate(130px, -210px);
+    }
+    75% {
+      transform: translate(70px, -300px);
+    }
+    100% {
+      transform: translate(20px, -410px);
+    }
+  }
+  @keyframes footsteps-5 {
+    10% {
+        transform: translate(20px, -330px) rotate(90deg);
+    }
+    25% {
+      transform: translate(70px, -328px) rotate(90deg);
+    }
+    50% {
+      transform: translate(130px, -326px) rotate(90deg);
+    }
+    75% {
+      transform: translate(190px, -324px) rotate(90deg);
+    }
+    100% {
+      transform: translate(230px, -320px) rotate(90deg);
+    }
+  }
+  @keyframes scroll-5 {
+    10% {
+      transform: translate(20px, -410px);
+    }
+    25% {
+      transform: translate(70px, -408px);
+    }
+    50% {
+      transform: translate(130px, -406px);
+    }
+    75% {
+      transform: translate(190px, -404px);
+    }
+    100% {
+      transform: translate(230px, -400px);
+    }
+  }
+  @keyframes footsteps-6 {
+    10% {
+      transform: translate(230px, -320px) rotate(230deg);
+    }
+    25% {
+      transform: translate(170px, -270px) rotate(230deg);
+    }
+    50% {
+      transform: translate(80px, -220px) rotate(230deg);
+    }
+    75% {
+      transform: translate(-10px, -170px) rotate(230deg);
+    }
+    100% {
+      transform: translate(-100px, -120px) rotate(230deg);
+    }
+  }
+  @keyframes scroll-6 {
+    10% {
+      transform: translate(230px, -400px);
+    }
+    25% {
+      transform: translate(170px, -350px);
+    }
+    50% {
+      transform: translate(80px, -300px);
+    }
+    75% {
+      transform: translate(-10px, -250px);
+    }
+    100% {
+      transform: translate(-100px, -200px);
+    }
+  }
+  
+  @keyframes footsteps-7 {
+    10% {
+        transform: translate(-100px, -120px) rotate(70deg);
+    }
+    25% {
+      transform: translate(20px, -130px) rotate(70deg);
+    }
+    50% {
+      transform: translate(140px, -150px) rotate(70deg);
+    }
+    75% {
+      transform: translate(260px, -170px) rotate(70deg);
+    }
+    100% {
+      transform: translate(380px, -180px) rotate(70deg);
+    }
+  }
+  @keyframes scroll-7 {
+    10% {
+      transform: translate(-100px, -200px);
+    }
+    25% {
+      transform: translate(20px, -210px);
+    }
+    50% {
+      transform: translate(140px, -230px);
+    }
+    75% {
+      transform: translate(260px, -250px);
+    }
+    100% {
+      transform: translate(380px, -260px);
+    }
+  }
+  @keyframes footsteps-8 {
+    10% {
+        transform: translate(380px, -180px) rotate(230deg);
+    }
+    25% {
+      transform: translate(320px, -160px) rotate(230deg);
+    }
+    50% {
+      transform: translate(260px, -140px) rotate(230deg);
+    }
+    75% {
+      transform: translate(190px, -120px) rotate(230deg);
+    }
+    100% {
+      transform: translate(120px, -90px) rotate(230deg);
+    }
+  }
+  @keyframes scroll-8 {
+    10% {
+        transform: translate(380px, -260px);
+    }
+    25% {
+      transform: translate(320px, -240px);
+    }
+    50% {
+      transform: translate(260px, -220px);
+    }
+    75% {
+      transform: translate(190px, -200px);
+    }
+    100% {
+      transform: translate(120px, -170px);
+    }
+  }
